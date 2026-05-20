@@ -1,0 +1,294 @@
+{
+  "name": "Portfolio Design System",
+  "version": "1.0.0",
+  "description": "Design tokens extraits de la frame Figma du portfolio one-page",
+  "colors": {
+    "primary": {
+      "dark": {
+        "value": "#241623",
+        "type": "color",
+        "description": "Couleur principale pour le texte et les bordures"
+      },
+      "red": {
+        "value": "#9b2909",
+        "type": "color",
+        "description": "Couleur d'accentuation principale"
+      }
+    },
+    "secondary": {
+      "orange": {
+        "value": "#F4633A",
+        "type": "color",
+        "description": "Couleur d'accentuation secondaire"
+      }
+    },
+    "background": {
+      "white": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "Fond principal"
+      },
+      "accent": {
+        "value": "rgba(239, 233, 244, 0.85)",
+        "type": "color",
+        "description": "Fond de section avec légère teinte"
+      },
+      "muted": {
+        "value": "#f5f5f5",
+        "type": "color",
+        "description": "Fond atténué"
+      }
+    },
+    "text": {
+      "foreground": {
+        "value": "#241623",
+        "type": "color",
+        "description": "Texte principal"
+      },
+      "muted": {
+        "value": "#717182",
+        "type": "color",
+        "description": "Texte secondaire"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "satoshi": {
+        "value": "Satoshi, sans-serif",
+        "type": "fontFamily",
+        "weights": {
+          "regular": 400,
+          "medium": 500,
+          "bold": 700
+        }
+      },
+      "urbanist": {
+        "value": "Urbanist, sans-serif",
+        "type": "fontFamily",
+        "weights": {
+          "regular": 400,
+          "medium": 500,
+          "bold": 700
+        }
+      }
+    },
+    "fontSizes": {
+      "xs": {
+        "value": "12px",
+        "type": "fontSize"
+      },
+      "sm": {
+        "value": "14px",
+        "type": "fontSize"
+      },
+      "base": {
+        "value": "16px",
+        "type": "fontSize"
+      },
+      "lg": {
+        "value": "18px",
+        "type": "fontSize"
+      },
+      "xl": {
+        "value": "24px",
+        "type": "fontSize"
+      },
+      "2xl": {
+        "value": "32px",
+        "type": "fontSize"
+      },
+      "3xl": {
+        "value": "48px",
+        "type": "fontSize"
+      },
+      "4xl": {
+        "value": "64px",
+        "type": "fontSize"
+      }
+    },
+    "letterSpacing": {
+      "tight": {
+        "value": "0.16px",
+        "type": "letterSpacing"
+      },
+      "normal": {
+        "value": "0.48px",
+        "type": "letterSpacing"
+      },
+      "wide": {
+        "value": "1.92px",
+        "type": "letterSpacing"
+      }
+    },
+    "lineHeights": {
+      "tight": {
+        "value": "0.9",
+        "type": "lineHeight"
+      },
+      "normal": {
+        "value": "1.1",
+        "type": "lineHeight"
+      },
+      "relaxed": {
+        "value": "1.4",
+        "type": "lineHeight"
+      },
+      "loose": {
+        "value": "1.5",
+        "type": "lineHeight"
+      }
+    },
+    "styles": {
+      "displayHeading": {
+        "fontFamily": "Satoshi",
+        "fontSize": "64px",
+        "fontWeight": 500,
+        "lineHeight": "0.9",
+        "letterSpacing": "1.92px"
+      },
+      "sectionHeading": {
+        "fontFamily": "Urbanist",
+        "fontSize": "48px",
+        "fontWeight": 700,
+        "lineHeight": "1",
+        "letterSpacing": "0.48px"
+      },
+      "sectionLabel": {
+        "fontFamily": "Urbanist",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": "1.1",
+        "letterSpacing": "0.48px",
+        "textTransform": "uppercase"
+      },
+      "bodyText": {
+        "fontFamily": "Satoshi",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": "1.4",
+        "letterSpacing": "0.16px"
+      },
+      "bodyTextMedium": {
+        "fontFamily": "Satoshi",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": "1.4",
+        "letterSpacing": "0.16px"
+      },
+      "captionText": {
+        "fontFamily": "Urbanist",
+        "fontSize": "16px",
+        "fontWeight": 400,
+        "lineHeight": "1.1",
+        "letterSpacing": "0.16px",
+        "textTransform": "capitalize"
+      },
+      "buttonText": {
+        "fontFamily": "Urbanist",
+        "fontSize": "16px",
+        "fontWeight": 500,
+        "lineHeight": "1.1",
+        "letterSpacing": "0.48px",
+        "textTransform": "uppercase"
+      },
+      "logoText": {
+        "fontFamily": "Satoshi",
+        "fontSize": "16px",
+        "fontWeight": 700,
+        "letterSpacing": "0.48px",
+        "textTransform": "uppercase"
+      }
+    }
+  },
+  "spacing": {
+    "xs": {
+      "value": "8px",
+      "type": "spacing"
+    },
+    "sm": {
+      "value": "10px",
+      "type": "spacing"
+    },
+    "md": {
+      "value": "16px",
+      "type": "spacing"
+    },
+    "lg": {
+      "value": "20px",
+      "type": "spacing"
+    },
+    "xl": {
+      "value": "24px",
+      "type": "spacing"
+    },
+    "2xl": {
+      "value": "32px",
+      "type": "spacing"
+    },
+    "3xl": {
+      "value": "40px",
+      "type": "spacing"
+    },
+    "4xl": {
+      "value": "120px",
+      "type": "spacing"
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "value": "4px",
+      "type": "borderRadius"
+    },
+    "md": {
+      "value": "8px",
+      "type": "borderRadius"
+    },
+    "lg": {
+      "value": "12px",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "16px",
+      "type": "borderRadius"
+    }
+  },
+  "shadows": {
+    "header": {
+      "value": "0px 225px 31.5px rgba(0,0,0,0), 0px 144px 29px rgba(0,0,0,0.01), 0px 81px 24.5px rgba(0,0,0,0.05), 0px 36px 18px rgba(0,0,0,0.09), 0px 9px 10px rgba(0,0,0,0.1)",
+      "type": "boxShadow",
+      "description": "Ombre pour le header sticky"
+    }
+  },
+  "components": {
+    "button": {
+      "variants": {
+        "primary": {
+          "backgroundColor": "#FFFFFF",
+          "color": "#241623",
+          "padding": "16px 40px",
+          "borderRadius": "8px"
+        },
+        "secondary": {
+          "backgroundColor": "#241623",
+          "color": "#FFFFFF",
+          "padding": "16px 40px",
+          "borderRadius": "8px"
+        }
+      }
+    },
+    "header": {
+      "height": "54px",
+      "padding": "16px 120px",
+      "backgroundColor": "#FFFFFF",
+      "position": "sticky",
+      "top": "0",
+      "boxShadow": "0px 225px 31.5px rgba(0,0,0,0), 0px 144px 29px rgba(0,0,0,0.01), 0px 81px 24.5px rgba(0,0,0,0.05), 0px 36px 18px rgba(0,0,0,0.09), 0px 9px 10px rgba(0,0,0,0.1)"
+    },
+    "projectCard": {
+      "maxWidth": "1200px",
+      "gap": "24px",
+      "imageWidth": "540px"
+    }
+  }
+}

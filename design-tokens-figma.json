@@ -1,0 +1,518 @@
+{
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "colors",
+      "typography",
+      "spacing",
+      "borderRadius",
+      "shadows"
+    ]
+  },
+  "colors": {
+    "primary": {
+      "dark": {
+        "$type": "color",
+        "$value": "#241623",
+        "$description": "Couleur principale pour le texte et les bordures"
+      },
+      "red": {
+        "$type": "color",
+        "$value": "#9b2909",
+        "$description": "Couleur d'accentuation principale - titres, hover"
+      }
+    },
+    "secondary": {
+      "orange": {
+        "$type": "color",
+        "$value": "#F4633A",
+        "$description": "Couleur d'accentuation secondaire - bordures, icônes"
+      }
+    },
+    "background": {
+      "white": {
+        "$type": "color",
+        "$value": "#FFFFFF",
+        "$description": "Fond principal"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "rgba(239, 233, 244, 0.45)",
+        "$description": "Fond de carte projet"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "#f5f5f5",
+        "$description": "Fond atténué"
+      }
+    },
+    "text": {
+      "foreground": {
+        "$type": "color",
+        "$value": "#241623",
+        "$description": "Texte principal"
+      },
+      "muted": {
+        "$type": "color",
+        "$value": "#717182",
+        "$description": "Texte secondaire"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#c4c4c4",
+        "$description": "Texte désactivé"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "#241623",
+        "$description": "Bordure par défaut"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#f4633a",
+        "$description": "Bordure orange - cartes projet, tags"
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "#e0e0e0",
+        "$description": "Bordure désactivée"
+      }
+    }
+  },
+  "typography": {
+    "fontFamilies": {
+      "satoshi": {
+        "$type": "fontFamilies",
+        "$value": "Satoshi",
+        "$description": "Police principale - titres, texte courant"
+      },
+      "urbanist": {
+        "$type": "fontFamilies",
+        "$value": "Urbanist",
+        "$description": "Police secondaire - labels, navigation, boutons"
+      }
+    },
+    "fontWeights": {
+      "regular": {
+        "$type": "fontWeights",
+        "$value": "400"
+      },
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "500"
+      },
+      "bold": {
+        "$type": "fontWeights",
+        "$value": "700"
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "$type": "fontSizes",
+        "$value": "12px"
+      },
+      "sm": {
+        "$type": "fontSizes",
+        "$value": "14px"
+      },
+      "base": {
+        "$type": "fontSizes",
+        "$value": "16px",
+        "$description": "Taille par défaut"
+      },
+      "lg": {
+        "$type": "fontSizes",
+        "$value": "18px"
+      },
+      "xl": {
+        "$type": "fontSizes",
+        "$value": "24px"
+      },
+      "2xl": {
+        "$type": "fontSizes",
+        "$value": "32px"
+      },
+      "3xl": {
+        "$type": "fontSizes",
+        "$value": "48px",
+        "$description": "Section headings"
+      },
+      "4xl": {
+        "$type": "fontSizes",
+        "$value": "64px",
+        "$description": "Display headings"
+      }
+    },
+    "letterSpacing": {
+      "tight": {
+        "$type": "letterSpacing",
+        "$value": "0.16px"
+      },
+      "normal": {
+        "$type": "letterSpacing",
+        "$value": "0.48px"
+      },
+      "wide": {
+        "$type": "letterSpacing",
+        "$value": "1.92px"
+      }
+    },
+    "lineHeights": {
+      "tight": {
+        "$type": "lineHeights",
+        "$value": "0.9"
+      },
+      "normal": {
+        "$type": "lineHeights",
+        "$value": "1.1"
+      },
+      "relaxed": {
+        "$type": "lineHeights",
+        "$value": "1.4"
+      },
+      "loose": {
+        "$type": "lineHeights",
+        "$value": "1.5"
+      }
+    },
+    "textCase": {
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      "capitalize": {
+        "$type": "textCase",
+        "$value": "capitalize"
+      },
+      "none": {
+        "$type": "textCase",
+        "$value": "none"
+      }
+    },
+    "styles": {
+      "displayHeading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.satoshi}",
+          "fontWeight": "{typography.fontWeights.medium}",
+          "fontSize": "{typography.fontSize.4xl}",
+          "lineHeight": "{typography.lineHeights.tight}",
+          "letterSpacing": "{typography.letterSpacing.wide}"
+        },
+        "$description": "Titre principal - 64px Satoshi Medium"
+      },
+      "sectionHeading": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.urbanist}",
+          "fontWeight": "{typography.fontWeights.bold}",
+          "fontSize": "{typography.fontSize.3xl}",
+          "lineHeight": "{typography.lineHeights.normal}",
+          "letterSpacing": "{typography.letterSpacing.normal}"
+        },
+        "$description": "Titre de section - 48px Urbanist Bold"
+      },
+      "sectionLabel": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.urbanist}",
+          "fontWeight": "{typography.fontWeights.medium}",
+          "fontSize": "{typography.fontSize.base}",
+          "lineHeight": "{typography.lineHeights.normal}",
+          "letterSpacing": "{typography.letterSpacing.normal}",
+          "textCase": "{typography.textCase.uppercase}"
+        },
+        "$description": "Label de section - 16px Urbanist Medium uppercase"
+      },
+      "bodyText": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.satoshi}",
+          "fontWeight": "{typography.fontWeights.regular}",
+          "fontSize": "{typography.fontSize.base}",
+          "lineHeight": "{typography.lineHeights.relaxed}",
+          "letterSpacing": "{typography.letterSpacing.tight}"
+        },
+        "$description": "Texte courant - 16px Satoshi Regular"
+      },
+      "bodyTextMedium": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.satoshi}",
+          "fontWeight": "{typography.fontWeights.medium}",
+          "fontSize": "{typography.fontSize.base}",
+          "lineHeight": "{typography.lineHeights.relaxed}",
+          "letterSpacing": "{typography.letterSpacing.tight}"
+        },
+        "$description": "Emphase - 16px Satoshi Medium"
+      },
+      "captionText": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.urbanist}",
+          "fontWeight": "{typography.fontWeights.regular}",
+          "fontSize": "{typography.fontSize.base}",
+          "lineHeight": "{typography.lineHeights.normal}",
+          "letterSpacing": "{typography.letterSpacing.tight}",
+          "textCase": "{typography.textCase.capitalize}"
+        },
+        "$description": "Métadonnées - 16px Urbanist Regular capitalize"
+      },
+      "buttonText": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.urbanist}",
+          "fontWeight": "{typography.fontWeights.medium}",
+          "fontSize": "{typography.fontSize.base}",
+          "lineHeight": "{typography.lineHeights.normal}",
+          "letterSpacing": "{typography.letterSpacing.normal}",
+          "textCase": "{typography.textCase.uppercase}"
+        },
+        "$description": "Texte de bouton - 16px Urbanist Medium uppercase"
+      },
+      "logoText": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{typography.fontFamilies.satoshi}",
+          "fontWeight": "{typography.fontWeights.bold}",
+          "fontSize": "{typography.fontSize.base}",
+          "letterSpacing": "{typography.letterSpacing.normal}",
+          "textCase": "{typography.textCase.uppercase}"
+        },
+        "$description": "Texte logo - 16px Satoshi Bold uppercase"
+      }
+    }
+  },
+  "spacing": {
+    "xs": {
+      "$type": "spacing",
+      "$value": "8px",
+      "$description": "Espacement minimal"
+    },
+    "sm": {
+      "$type": "spacing",
+      "$value": "10px",
+      "$description": "Petit espacement"
+    },
+    "md": {
+      "$type": "spacing",
+      "$value": "16px",
+      "$description": "Espacement moyen"
+    },
+    "lg": {
+      "$type": "spacing",
+      "$value": "20px",
+      "$description": "Grand espacement"
+    },
+    "xl": {
+      "$type": "spacing",
+      "$value": "24px",
+      "$description": "Très grand espacement"
+    },
+    "2xl": {
+      "$type": "spacing",
+      "$value": "32px",
+      "$description": "Espacement section"
+    },
+    "3xl": {
+      "$type": "spacing",
+      "$value": "40px",
+      "$description": "Espacement large"
+    },
+    "4xl": {
+      "$type": "spacing",
+      "$value": "120px",
+      "$description": "Espacement page"
+    }
+  },
+  "borderRadius": {
+    "sm": {
+      "$type": "borderRadius",
+      "$value": "4px"
+    },
+    "md": {
+      "$type": "borderRadius",
+      "$value": "8px",
+      "$description": "Boutons, tags"
+    },
+    "lg": {
+      "$type": "borderRadius",
+      "$value": "12px",
+      "$description": "Cartes projet"
+    },
+    "xl": {
+      "$type": "borderRadius",
+      "$value": "16px"
+    }
+  },
+  "shadows": {
+    "header": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "0px",
+        "y": "9px",
+        "blur": "10px",
+        "spread": "0px",
+        "color": "rgba(0, 0, 0, 0.1)"
+      },
+      "$description": "Ombre pour le header sticky"
+    },
+    "buttonActive": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "0px",
+        "y": "4px",
+        "blur": "8px",
+        "spread": "0px",
+        "color": "rgba(0, 0, 0, 0.2)"
+      },
+      "$description": "Ombre pour bouton cliqué/actif"
+    }
+  },
+  "components": {
+    "button": {
+      "padding": {
+        "horizontal": {
+          "$type": "spacing",
+          "$value": "40px"
+        },
+        "vertical": {
+          "$type": "spacing",
+          "$value": "16px"
+        }
+      },
+      "borderRadius": {
+        "$type": "borderRadius",
+        "$value": "{borderRadius.md}"
+      },
+      "states": {
+        "default": {
+          "background": {
+            "$type": "color",
+            "$value": "{colors.background.white}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{colors.border.default}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{colors.text.foreground}"
+          }
+        },
+        "hover": {
+          "background": {
+            "$type": "color",
+            "$value": "{colors.primary.red}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{colors.background.white}"
+          }
+        },
+        "active": {
+          "background": {
+            "$type": "color",
+            "$value": "{colors.primary.red}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{colors.background.white}"
+          },
+          "shadow": {
+            "$type": "boxShadow",
+            "$value": "{shadows.buttonActive}"
+          }
+        },
+        "disabled": {
+          "background": {
+            "$type": "color",
+            "$value": "{colors.background.white}"
+          },
+          "border": {
+            "$type": "color",
+            "$value": "{colors.border.disabled}"
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{colors.text.disabled}"
+          }
+        }
+      }
+    },
+    "tag": {
+      "padding": {
+        "horizontal": {
+          "$type": "spacing",
+          "$value": "24px"
+        },
+        "vertical": {
+          "$type": "spacing",
+          "$value": "8px"
+        }
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{colors.border.accent}"
+      },
+      "borderRadius": {
+        "$type": "borderRadius",
+        "$value": "{borderRadius.md}"
+      }
+    },
+    "projectCard": {
+      "padding": {
+        "$type": "spacing",
+        "$value": "40px"
+      },
+      "gap": {
+        "$type": "spacing",
+        "$value": "40px"
+      },
+      "background": {
+        "$type": "color",
+        "$value": "{colors.background.accent}"
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{colors.border.accent}"
+      },
+      "borderRadius": {
+        "$type": "borderRadius",
+        "$value": "{borderRadius.lg}"
+      },
+      "image": {
+        "width": {
+          "$type": "sizing",
+          "$value": "540px"
+        },
+        "height": {
+          "$type": "sizing",
+          "$value": "405px"
+        }
+      }
+    },
+    "header": {
+      "height": {
+        "$type": "sizing",
+        "$value": "54px"
+      },
+      "padding": {
+        "horizontal": {
+          "$type": "spacing",
+          "$value": "120px"
+        },
+        "vertical": {
+          "$type": "spacing",
+          "$value": "16px"
+        }
+      },
+      "shadow": {
+        "$type": "boxShadow",
+        "$value": "{shadows.header}"
+      }
+    }
+  }
+}
